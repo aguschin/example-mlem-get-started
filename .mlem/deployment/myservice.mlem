@@ -1,0 +1,67 @@
+app_name: example-mlem-get-started-app
+env_link:
+  link_type: env
+  object_type: link
+  path: staging
+model_link:
+  link_type: model
+  object_type: link
+  path: rf
+object_type: deployment
+state:
+  app:
+    meta_info:
+      acm: false
+      archived_at: null
+      build_stack:
+        id: fa15409e-a5da-4998-9954-0e865cb1a19f
+        name: container
+      buildpack_provided_description: null
+      created_at: '2022-07-15T11:44:00Z'
+      git_url: https://git.heroku.com/example-mlem-get-started-app.git
+      id: 774755ec-583f-4bff-b690-8f3b7335849f
+      internal_routing: null
+      maintenance: false
+      name: example-mlem-get-started-app
+      organization: null
+      owner:
+        email: olivaw@iterative.ai
+        id: 5dbf22c9-f202-45ce-861b-1aff59c132a1
+      region:
+        id: 59accabd-516d-4f0e-83e6-6e3757701145
+        name: us
+      released_at: '2022-07-15T11:44:00Z'
+      repo_size: null
+      slug_size: null
+      space: null
+      stack:
+        id: fa15409e-a5da-4998-9954-0e865cb1a19f
+        name: container
+      team: null
+      updated_at: '2022-07-15T11:44:00Z'
+      web_url: https://example-mlem-get-started-app.herokuapp.com/
+    name: example-mlem-get-started-app
+    web_url: https://example-mlem-get-started-app.herokuapp.com/
+  image:
+    image_id: sha256:d866f8af94b5c1263d3819bf60e5b47dfe2e36abfa61c93327e0ba920f5a8960
+    name: web
+    registry:
+      type: heroku
+    repository: example-mlem-get-started-app
+  model_hash: fed500f86c15b9824f70d7055f3b57cb
+  release_state:
+  - app:
+      id: 774755ec-583f-4bff-b690-8f3b7335849f
+      name: example-mlem-get-started-app
+    command: /bin/sh -c sh\ run.sh
+    created_at: '2022-07-15T11:46:42Z'
+    docker_image:
+      id: 24cab4c6-92f7-4037-be01-e5e0a0fcf672
+      image_ref: null
+    id: a629dc95-1bff-4b6f-806c-10cb7ec0849f
+    quantity: 1
+    size: Free
+    type: web
+    updated_at: '2022-07-15T11:46:42Z'
+  type: heroku
+type: heroku
